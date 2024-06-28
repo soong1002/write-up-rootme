@@ -5,19 +5,19 @@ title: nosql_injection_blind
 
  
  ![image](../image/1.1.png)
-<<<<<<< HEAD
+
  ![image](../image/1.2.png)
  
 
 Tiến hành nhập value nosqlblind do đề bài bảo lấy flag ở đó
 ![image](../image/1.3.png)
-=======
+
  ![Alt text](<../image/1.2.png>)
  
 
 Tiến hành nhập value nosqlblind do đề bài bảo lấy flag ở đó
 ![Alt text](<../image/1.3.png>)
->>>>>>> 7237cf2239ec7e5f61f64ff7ba6bd160e54f2a02
+
 
  
 Có vẻ như phải nhập chính xác flag mới có thể verify flag, nhưng ta đang đi tìm flag mà =)))
@@ -25,11 +25,11 @@ Kinh nghiệm bản than cho cái bài nosql sẽ có thể sử dụng các to�
 ở bài này tôi tiến hành sử dụng $ne để check param chall_name = nosqlblind
 
 http://challenge01.root-me.org/web-serveur/ch48/index.php?chall_name=nosqlblind&flag[$ne]=1
-<<<<<<< HEAD
+
 ![image](../image/1.4.png)
-=======
+
 ![Alt text](<../image/1.4.png>)
->>>>>>> 7237cf2239ec7e5f61f64ff7ba6bd160e54f2a02
+
  
  
 Tuyệt vời, verify thành công nhưng méo có flag =))), tôi đã thử check source code xem có bị comment không và kết quả là 0.
@@ -45,20 +45,20 @@ trong đó:
 Từ đó payload ta có :
 http://challenge01.root-me.org/web-serveur/ch48/index.php?chall_name=nosqlblind&flag[$regex]=^.{%s}
 payload này để check xem flag gồm bao nhiêu kí tự.
-<<<<<<< HEAD
+
 ![image](../image/1.5.png)
-=======
+
 ![Alt text](<../image/1.5.png>)
->>>>>>> 7237cf2239ec7e5f61f64ff7ba6bd160e54f2a02
+
 
  
 Payload check số kí tự trong flag ( cái này các bạn tự hiểu nhé =))) )
 Nếu đã biết số kí tự trong flag thì giờ khá đơn giản đúng không nào =))). Chỉ cần viết script python lấy flag thôi
 <<<<<<< HEAD
 ![image](../image/1.6.png)
-=======
+
 ![Alt text](<../image/1.6.png>)
->>>>>>> 7237cf2239ec7e5f61f64ff7ba6bd160e54f2a02
+
 
  
 String.printable chứa tất cả các kí tự có thể in ra được ( các bạn gg them về cái này nhé, nó cũng regex newline và tab đấy ).
