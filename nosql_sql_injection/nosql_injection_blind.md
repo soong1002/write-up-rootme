@@ -12,12 +12,6 @@ title: nosql_injection_blind
 Tiến hành nhập value nosqlblind do đề bài bảo lấy flag ở đó
 ![image](../image/1.3.png)
 
- ![Alt text](<../image/1.2.png>)
- 
-
-Tiến hành nhập value nosqlblind do đề bài bảo lấy flag ở đó
-![Alt text](<../image/1.3.png>)
-
 
  
 Có vẻ như phải nhập chính xác flag mới có thể verify flag, nhưng ta đang đi tìm flag mà =)))
@@ -28,9 +22,7 @@ http://challenge01.root-me.org/web-serveur/ch48/index.php?chall_name=nosqlblind&
 
 ![image](../image/1.4.png)
 
-![Alt text](<../image/1.4.png>)
 
- 
  
 Tuyệt vời, verify thành công nhưng méo có flag =))), tôi đã thử check source code xem có bị comment không và kết quả là 0.
 
@@ -48,7 +40,6 @@ payload này để check xem flag gồm bao nhiêu kí tự.
 
 ![image](../image/1.5.png)
 
-![Alt text](<../image/1.5.png>)
 
 
  
@@ -57,7 +48,6 @@ Nếu đã biết số kí tự trong flag thì giờ khá đơn giản đúng k
 <<<<<<< HEAD
 ![image](../image/1.6.png)
 
-![Alt text](<../image/1.6.png>)
 
 
  
