@@ -1,2 +1,2 @@
 # write-up-rootme
-loang ngoang =))
+read for learn
